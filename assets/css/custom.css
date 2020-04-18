@@ -2,19 +2,30 @@ nav {
     margin: 0;
 }
 
-a {
-    color: #4aaaa5;
+.navbar-dark .navbar-brand {
+    color: #eeeeee;
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+nav a {
+    padding-right: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Profile Page */
 .card-img-top {
     width: 100%;
-    margin-left: 25px;
-    margin-right: 25px;
+    padding-top: 10px;
+    padding-right: 5px;
 }
 
+
+
 .card-title {
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 /* Portfolio Page */
